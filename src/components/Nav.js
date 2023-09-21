@@ -1,11 +1,18 @@
-import React from 'react'
+import React from "react";
 
 const Nav = () => {
   return (
-    <nav>
-        Home
-    </nav>
-  )
-}
+    <nav className="nav-bar">
+      <div>
+        <div className="bar-one" />
+        <div className="bar-two" />
+        <div className="bar-three" />
+      </div>
 
-export default Nav
+    
+
+    </nav>
+  );
+};
+
+export default Nav;
