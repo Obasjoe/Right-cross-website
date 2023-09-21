@@ -9,8 +9,14 @@ const Nav = () => {
         <div className="bar-three" />
       </div>
 
-    
-
+      <div>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Offerings</li>
+          <li>Testimonials</li>
+        </ul>
+      </div>
     </nav>
   );
 };
