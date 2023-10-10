@@ -1,14 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Hamburger from './Hamburger'
 
 const Nav = () => {
-  
-  const [hamburgerOpen, setHamburgerOpen] = useState(false);
-
-  const toggleHamburger = () =>{
-    setHamburgerOpen(!hamburgerOpen)
-  }
-
   return (
     <div>
       <div className='navigation'>
@@ -19,7 +12,7 @@ const Nav = () => {
           <li>CONTACT US</li>
         </ul>
 
-          <div className='hamburger' onClick={toggleHamburger}>
+          <div className='hamburger'>
             <Hamburger/>
           </div>
       </div>

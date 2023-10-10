@@ -12,22 +12,7 @@
   padding: 0 25px;
 }
 
-
 .navigation ul li{
   list-style-type: none;
   padding-right: 10px;
-}
-
-.hamburger{
-  display: none;
-}
-
-@media (max-width: 767px){
-
-  .hamburger{
-    display: fixed;
-    padding-top: 10px;
-    margin-left: 10px;
-    z-index: 10;
-  }
 }

@@ -1,0 +1,10 @@
+/*Nav section styling*/
+#box {
+  display: inline-flex;
+  width: 100px;
+  margin: 0 -5px;
+}
+
+.items {
+  margin: 0 5px;
+}
