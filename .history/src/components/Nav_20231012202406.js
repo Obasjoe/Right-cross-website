@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import "../navbar.css"
 
 function Nav() {
   const [active, setActive] = useState("nav_menu");
